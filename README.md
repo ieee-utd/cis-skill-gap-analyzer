@@ -11,13 +11,13 @@ This app takes a job or internship description and the student's current skills.
 How the app works
 
     Job description + current skills
-      -> Extract job requirements (LLM)
-      -> Organize and categorize skills
-      -> Compare with the student's skills
-      -> Identify missing skills
-      -> Prioritize missing skills
-      -> Generate a learning roadmap
-      -> Recommend learning resources
+      - Extract job requirements (LLM)
+      - Organize and categorize skills
+      - Compare with the student's skills
+      - Identify missing skills
+      - Prioritize missing skills
+      - Generate a learning roadmap
+      - Recommend learning resources
 
 ## Getting started
 
@@ -25,9 +25,7 @@ Start with the [setup guide](docs/getting-started.md).
 
 ## Targets
 
-- Fall 2026: one complete Python app that runs the whole flow above from the terminal
-- Fall Show and Tell demo the week of December 7 to 13, 2026
-- Spring 2027: Streamlit web dashboard with charts and an interactive roadmap, then deployment
+- Fall Show and Tell demo
 - LLM budget of about $50 to $75 for the semester. Keep test runs small
 
 ## Repo layout
