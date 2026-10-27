@@ -63,15 +63,15 @@ You should see the welcome message, then `1 passed`.
 
     git checkout main
     git pull
-    git checkout -b 2-add-my-name
+    git checkout -b 3-add-my-name
 
 Make your change, then:
 
     git add .
-    git commit -m "docs: add my name to the team list"
-    git push -u origin 2-add-my-name
+    git commit -m "docs: add my name to the team"
+    git push -u origin 3-add-my-name
 
-Go to the repo on GitHub and click Compare and pull request. Fill out the template and write `Part of #2`. See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full workflow.
+Go to the repo on GitHub and click Compare and pull request. Fill out the template and write `Part of #3`. See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full workflow.
 
 ## Common problems
 

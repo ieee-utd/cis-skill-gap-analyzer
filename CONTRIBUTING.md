@@ -36,7 +36,6 @@ Start each commit message with the type of change ([Conventional Commits](https:
 - Push your branch and open a pull request into main
 - Write `Closes #7` in the description so the issue closes when it merges
 - Fill out the testing checklist
-- Post the link in #cis-project-one and tag who should review it
 
 ## 6. Review
 

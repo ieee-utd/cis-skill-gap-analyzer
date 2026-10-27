@@ -25,7 +25,8 @@ Start with the [setup guide](docs/getting-started.md).
 
 ## Targets
 
-- Fall Show and Tell demo
+- Finish the full app this fall, including a Streamlit web app where students enter a job and their skills and see their results
+- Fall Show and Tell demo (date TBD)
 - LLM budget of about $50 to $75 for the semester. Keep test runs small
 
 ## Repo layout
