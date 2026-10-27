@@ -1,0 +1,27 @@
+# Secrets. Do not ever commit passwords or API keys.
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor and computer files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
