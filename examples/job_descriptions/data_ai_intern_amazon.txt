@@ -1,27 +1,38 @@
 Company: Amazon
-Role: Data Scientist-1 Intern (6 months; January 2027)
-Location: Bengaluru, Karnataka, India
+Role: Data Scientist-1 Intern — January 2027 (6 months), Amazon University Talent Acquisition
+Location: Karnataka, India
 Job ID: 10512030
 Source: https://www.amazon.jobs/en/jobs/10512030/data-scientist-1-intern-jan-2027-6-months-amazon-university-talent-acquisition
 Source checked: 2026-10-28
 
-NOTE FOR CONTRIBUTION:
-This is a paraphrased working sample based on the public posting, not the full original posting. The repository issue asks for the full posting, including requirements and preferred qualifications. Before submitting, open the source URL and replace this summary with the complete posting text, removing recruiter names, email addresses, and phone numbers.
+DATA SCIENTIST-1 INTERN — JANUARY 2027 (6 MONTHS), AMAZON UNIVERSITY TALENT ACQUISITION
 
-ROLE SUMMARY
-Amazon is seeking an intern to develop, automate, and operate analytical models that support system analysis and business decisions. Relevant academic backgrounds include Computer Science, Engineering, Operations Research, and Process Control.
+Job ID: 10512030 | ADCI - Karnataka
 
-RESPONSIBILITIES
-- Apply data analysis and statistical methods to improve customer experience and inform decisions.
-- Identify drivers of business problems and develop forecasting or prediction approaches.
-- Conduct analyses to find opportunities and communicate recommendations.
-- Work with multiple teams while maintaining analytical rigor and data integrity.
-- Investigate business problems and identify root causes.
+DESCRIPTION
+
+We are looking for motivated data scientists with leadership skills, and the ability to develop, automate, and run analytical models of our systems. Academic and/or practical background in Computer Science, Engineering, Operations Research, or Process Control are particularly relevant for this position. Experience in the integration of model-based engineering tools and/or multidisciplinary analysis & optimization is also a plus.
+
+KEY JOB RESPONSIBILITIES
+
+We are looking for motivated data scientists with leadership skills, and the ability to develop, automate, and run analytical models of our systems. Academic and/or practical background in Computer Science, Engineering, Operations Research, or Process Control are particularly relevant for this position. Experience in the integration of model-based engineering tools and/or multidisciplinary analysis & optimization is also a plus.
+
+- Use data analyses and statistical techniques to develop solutions to improve customer experience and to guide business decision making.
+- Identify predictors and causes of business-related problems and implement novel approaches related to forecasting and prediction.
+- Identify, develop, manage, and execute analyses to uncover areas of opportunity and present written business recommendations.
+- Collaborate with multiple teams as a leader of quantitative analysis and develop solutions that utilize the highest standards of analytical rigor and data integrity.
+- Analyze and solve business problems at their root.
 
 BASIC QUALIFICATIONS
-- Be at least 18 years old.
+
+- Are 18 years of age or older.
 
 PREFERRED QUALIFICATIONS
-- Experience with R, SAS, MATLAB, and SQL.
-- Experience transforming data, selecting and training models, cross-validation, and deployment at scale.
-- Familiarity with machine-learning or deep-learning toolkits such as MXNet, TensorFlow, Caffe, or PyTorch.
+
+- Experience in R/SAS/Matlab and SQL.
+- Experience in manipulating/transforming data, model selection, model training, cross-validation and deployment at scale.
+- Experience with Machine and Deep Learning toolkits such as MXNet, TensorFlow, Caffe and PyTorch.
+
+ADDITIONAL INFORMATION
+
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you're applying in isn't listed, contact your Recruiting Partner.

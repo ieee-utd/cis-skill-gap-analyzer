@@ -4,26 +4,53 @@ Location: Bengaluru, India (onsite)
 Source: https://job-boards.greenhouse.io/enterpret/jobs/7847134003
 Source checked: 2026-10-28
 
-NOTE FOR CONTRIBUTION:
-This is a paraphrased working sample based on the public posting, not the full original posting. The repository issue asks for the full posting, including requirements and preferred qualifications. Before submitting, open the source URL and replace this summary with the complete posting text, removing recruiter names, email addresses, and phone numbers.
+ABOUT ENTERPRET
 
-ABOUT THE ROLE
-Enterpret builds a customer-intelligence platform that organizes large volumes of customer feedback. Its engineering work involves natural-language processing, serverless computing, and real-time analytics.
+At Enterpret, we are building the customer intelligence platform that turns millions of raw, messy pieces of customer feedback into a structured, queryable source of truth, solving complex problems in natural language processing, serverless computing, and real-time analytics by applying first-principle thinking to systems that operate at massive scale.
 
-RESPONSIBILITIES
-- Participate in system-design and implementation discussions.
-- Help develop backend components on AWS and take solutions from concept toward production.
-- Contribute to proof-of-concept work for backend and AI feature integrations.
-- Work with engineers building AI-powered platform features.
-- Investigate problems and help improve system performance and resilience.
+We are AI-native to the core. Our models, pipelines, and infrastructure are designed around AI from the ground up, and our engineers ship these features to production at scale. Our investors are Kleiner Perkins and Sequoia Capital, and a few of our customers are Canva, Notion, and Wispr Flow, among many other customer-centric product orgs.
 
-REQUIRED QUALIFICATIONS
-- Be pursuing a Computer Science or Engineering degree.
-- Have strong programming fundamentals in a modern programming language.
-- Have completed at least one relevant internship in engineering, backend, or AI work.
-- Be able to work onsite in Bengaluru.
-- Demonstrate problem-solving, debugging, analytical skills, curiosity, and ownership.
+We love working with folks who are resourceful, curious, and take ownership of their work. Our internship program isn't about side projects, it's a launchpad. You'll take on meaningful problems, learn quickly, and directly impact the systems our customers rely on every day.
 
-PREFERRED / BONUS EXPERIENCE
-- Interest or experience in distributed systems, serverless computing, and AI-powered product features.
-- Open-source contributions or backend/AI project experience.
+Our engineering culture is built around leveraging and contributing to open-source tools. We aim to build upon and improve state-of-the-art systems in our field of work.
+
+Read more about our team, core values, and operating principles: https://www.enterpret.com/careers
+
+WHAT YOU'LL DO
+
+Our backend team is small but exceptionally strong, so you'll learn fast and get real ownership early, with experienced engineers alongside you the whole way. You'll get to build things from scratch and see how your systems hold up in the real world, with all its messy data, unexpected user behavior, and edge cases.
+
+And when something breaks (it happens to all of us), you'll dig in with the team to make it faster and more resilient than before.
+
+- Join our system design discussions: sit in on internal design and implementation conversations and contribute your ideas.
+- Take ideas from concept to production: build real solutions with guidance, not just closing tickets off a backlog.
+- Develop on serverless architectures using AWS, building scalable backend components that stand up to real-world use.
+- Help build proof-of-concepts for new backend + AI feature integrations, from model output to real-time inference.
+- Work closely with the engineers building our AI-native platform and learn how backend architecture supports AI features end to end.
+
+WHAT IT TAKES
+
+- Onsite in Bangalore is a must-have: you're able and willing to work from our Bangalore office in person.
+- Pursuing a degree in Computer Science or Engineering from a Tier 1 college.
+- Strong programming fundamentals in any modern language.
+- At least one prior internship in a relevant engineering or backend/AI role.
+- Genuine interest in distributed systems, serverless computing, and AI-powered product features.
+- Sharp problem-solving, debugging, and analytical skills, and an eagerness to learn how backend architecture supports AI from model training to real-time inference.
+- Bonus: open-source contributions or backend/AI project experience.
+
+WHY ENTERPRET?
+
+- Real Impact: Your code ships to production and reaches features used by companies like Canva and Notion.
+- Ownership: Real autonomy and ownership of what you build, with support when you need it.
+- Learn by Doing: Get hands-on with AI, data, and scalable systems that most interns only read about.
+- Mentorship: Learn directly from engineers who have scaled AI-native systems, plus L&D resources in backend + AI.
+- Culture: An open, collaborative, builder-first environment where it's safe to experiment, ask questions, and grow.
+- Rewards: Competitive internship stipend, and a potential Pre-Placement Offer (PPO) based on your performance.
+
+WHAT WE VALUE
+
+At Enterpret, we operate with a deep sense of ownership, we play for the team and do what it takes to win together. We care personally for our teammates while pushing each other with honest, actionable feedback. Above all, we approach everything with humility and a drive to keep learning and getting better.
+
+EQUAL OPPORTUNITIES
+
+We are an equal opportunity employer. We ensure that none of our employees or prospective employees receives less favourable treatment as a result of age, sex, disability, marital status, colour, race, religion or ethnic origin. Equally we aim to ensure that no such employee is disadvantaged by terms and conditions of employment which cannot be justified.
