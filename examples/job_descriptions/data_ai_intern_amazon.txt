@@ -1,0 +1,27 @@
+Company: Amazon
+Role: Data Scientist-1 Intern (6 months; January 2027)
+Location: Bengaluru, Karnataka, India
+Job ID: 10512030
+Source: https://www.amazon.jobs/en/jobs/10512030/data-scientist-1-intern-jan-2027-6-months-amazon-university-talent-acquisition
+Source checked: 2026-10-28
+
+NOTE FOR CONTRIBUTION:
+This is a paraphrased working sample based on the public posting, not the full original posting. The repository issue asks for the full posting, including requirements and preferred qualifications. Before submitting, open the source URL and replace this summary with the complete posting text, removing recruiter names, email addresses, and phone numbers.
+
+ROLE SUMMARY
+Amazon is seeking an intern to develop, automate, and operate analytical models that support system analysis and business decisions. Relevant academic backgrounds include Computer Science, Engineering, Operations Research, and Process Control.
+
+RESPONSIBILITIES
+- Apply data analysis and statistical methods to improve customer experience and inform decisions.
+- Identify drivers of business problems and develop forecasting or prediction approaches.
+- Conduct analyses to find opportunities and communicate recommendations.
+- Work with multiple teams while maintaining analytical rigor and data integrity.
+- Investigate business problems and identify root causes.
+
+BASIC QUALIFICATIONS
+- Be at least 18 years old.
+
+PREFERRED QUALIFICATIONS
+- Experience with R, SAS, MATLAB, and SQL.
+- Experience transforming data, selecting and training models, cross-validation, and deployment at scale.
+- Familiarity with machine-learning or deep-learning toolkits such as MXNet, TensorFlow, Caffe, or PyTorch.

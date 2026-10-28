@@ -1,0 +1,40 @@
+Company: ARTPARK @ IISc
+Role: Embedded Firmware Intern
+Location: Bengaluru, India
+Type: Full-time, in-office internship
+Duration: 6 months
+Source: https://www.artpark.in/careers-1/embeddedfirmware-intern
+Source checked: 2026-10-28
+
+IMPORTANT:
+This file is a working transcription based on the publicly available job listing. Before contributing it, compare it with the source page and make sure the complete posting is captured accurately. Do not add requirements that are not on the source page.
+
+INTERNSHIP ROLE OVERVIEW
+The selected intern(s) will work closely with the engineering team to build prototypes and customer-specific solutions on Yaanendriya’s sensing and navigation products. The role provides hands-on exposure to embedded firmware development, hardware bring-up, and real-world product integration.
+
+KEY RESPONSIBILITIES
+- Rapidly prototype proof-of-concept rigs using microcontrollers, sensors, and communication modules.
+- Write, debug, and optimize firmware in C/C++ using STM32, ESP32, or similar platforms.
+- Develop customer-specific applications on existing products.
+- Integrate peripherals, bring up PCBs, and run basic hardware tests.
+- Document designs, test results, and hand-off guides for production teams.
+
+MANDATORY SKILL SETS
+- Strong understanding of microcontroller architecture, GPIO, SPI/I²C, and UART.
+- Embedded firmware development in C/C++ and familiarity with Git.
+- Basic electronics lab practices, including soldering and use of a multimeter or oscilloscope.
+- Ability to read schematics and datasheets, and make changes to bills of materials (BOMs) for proof-of-concept work.
+
+PREFERRED SKILLS
+- Exposure to real-time operating systems such as FreeRTOS or Zephyr.
+- Python or Node.js for quick desktop or cloud utilities.
+- Familiarity with RF modules such as LoRa and BLE, and sensors such as IMU and GNSS.
+
+INTERNSHIP DETAILS
+- Duration: 6 months.
+- Work mode: Offline / in-office.
+- Work schedule: 5–6 days per week at the Bengaluru office.
+- Career opportunity: High-performing candidates may be considered for full-time roles.
+
+ABOUT ARTPARK
+ARTPARK @ IISc is an AI and robotics technology park and venture builder focused on robotics, connected autonomous systems, and AI. It was established by the Indian Institute of Science in Bengaluru with support from the Department of Science and Technology, Government of India, and the Government of Karnataka.

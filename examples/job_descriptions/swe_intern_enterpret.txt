@@ -1,0 +1,29 @@
+Company: Enterpret
+Role: Backend Software Engineering Intern
+Location: Bengaluru, India (onsite)
+Source: https://job-boards.greenhouse.io/enterpret/jobs/7847134003
+Source checked: 2026-10-28
+
+NOTE FOR CONTRIBUTION:
+This is a paraphrased working sample based on the public posting, not the full original posting. The repository issue asks for the full posting, including requirements and preferred qualifications. Before submitting, open the source URL and replace this summary with the complete posting text, removing recruiter names, email addresses, and phone numbers.
+
+ABOUT THE ROLE
+Enterpret builds a customer-intelligence platform that organizes large volumes of customer feedback. Its engineering work involves natural-language processing, serverless computing, and real-time analytics.
+
+RESPONSIBILITIES
+- Participate in system-design and implementation discussions.
+- Help develop backend components on AWS and take solutions from concept toward production.
+- Contribute to proof-of-concept work for backend and AI feature integrations.
+- Work with engineers building AI-powered platform features.
+- Investigate problems and help improve system performance and resilience.
+
+REQUIRED QUALIFICATIONS
+- Be pursuing a Computer Science or Engineering degree.
+- Have strong programming fundamentals in a modern programming language.
+- Have completed at least one relevant internship in engineering, backend, or AI work.
+- Be able to work onsite in Bengaluru.
+- Demonstrate problem-solving, debugging, analytical skills, curiosity, and ownership.
+
+PREFERRED / BONUS EXPERIENCE
+- Interest or experience in distributed systems, serverless computing, and AI-powered product features.
+- Open-source contributions or backend/AI project experience.
