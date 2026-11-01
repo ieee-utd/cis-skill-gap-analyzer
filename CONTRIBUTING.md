@@ -2,17 +2,18 @@
 
 ## 1. Pick an issue
 
-- Pick an issue from the Ready column on the project board
-- Assign yourself so nobody else starts the same issue
+- Pick an issue from the **To Do** column on **Azure Boards**
+- Assign yourself and drag it to **Doing** so nobody else starts the same issue
+- Note the work item number on the card (for example, `#7`)
 - If there is no issue for what you want to do, tell Aparna, then make one
 
 ## 2. Make a branch
 
-Never work directly on main. Name the branch with the issue number and a few words.
+Never work directly on main. Name the branch `feature/<short-issue-name>`.
 
     git checkout main
     git pull
-    git checkout -b 7-short-description
+    git checkout -b feature/pdf-text-extraction
 
 ## 3. Commit small and often
 
@@ -33,8 +34,8 @@ Start each commit message with the type of change ([Conventional Commits](https:
 
 ## 5. Open a pull request
 
-- Push your branch and open a pull request into main
-- Write `Closes #7` in the description so the issue closes when it merges
+- Push your branch (`git push -u origin feature/short-issue-name`) and open a pull request into main on GitHub
+- Write `Fixes AB#7` (replace `7` with your Azure Boards issue number) in the PR description so the Azure ticket automatically moves to **Done** when it merges
 - Fill out the testing checklist
 
 ## 6. Review
