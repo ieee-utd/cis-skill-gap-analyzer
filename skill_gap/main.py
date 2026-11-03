@@ -4,8 +4,10 @@ Run it from the repo folder with:
 
     python -m skill_gap.main
 
-Right now it only prints a welcome message, so make sure you are able to see that.
+Right now it sends a test prompt to the LLM and prints the response.
 """
+
+from skill_gap.llm_client import ask_llm
 
 
 def welcome_message():
@@ -14,8 +16,9 @@ def welcome_message():
 
 
 def main():
-    """Print the welcome message. Later this will run the full analysis."""
+    """Print the welcome message, then send a test prompt to the LLM."""
     print(welcome_message())
+    print(ask_llm("In one sentence, what is a skill gap?"))
 
 
 if __name__ == "__main__":
