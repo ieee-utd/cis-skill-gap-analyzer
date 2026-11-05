@@ -1,0 +1,40 @@
+Python
+Java
+C++
+JavaScript
+TypeScript
+SQL
+R
+HTML
+CSS
+React
+Node.js
+Flask
+Django
+FastAPI
+REST APIs
+Git
+GitHub
+Docker
+Kubernetes
+AWS
+Azure
+Linux
+Machine Learning
+Deep Learning
+Natural Language Processing
+Computer Vision
+Data Analysis
+Data Visualization
+Pandas
+NumPy
+scikit-learn
+TensorFlow
+PyTorch
+Tableau
+Excel
+MongoDB
+PostgreSQL
+Agile
+Networking
+Cybersecurity

@@ -1,0 +1,21 @@
+Jordan Lee
+Computer Science Student, University of Texas at Dallas
+
+EXPERIENCE
+Software Engineering Intern, Acme Analytics (Summer 2026)
+- Built REST endpoints in Flask and deployed them in Docker containers on Amazon Web Services
+- Wrote SQL queries against a Postgres database to clean customer data
+- Used pandas and numpy to analyze 2M rows of sales data and built dashboards in Tableau
+
+Research Assistant, UTD AI Lab
+- Trained ML models with scikit learn and PyTorch to classify medical images (computer-vision project)
+- Applied NLP techniques to summarize patient notes
+- Collaborated using git and GitHub in a scrum team
+
+PROJECTS
+Personal Portfolio Website - built with React, JS, HTML/CSS
+Stock Price Predictor - deep-learning LSTM model in TensorFlow
+
+SKILLS
+Languages: Python, Java, C++
+Tools: Linux, MS Excel, Azure
