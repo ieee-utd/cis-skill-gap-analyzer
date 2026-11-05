@@ -1,18 +1,22 @@
 """
-AB#17 Choose extraction approach
-Compares 3 ways to pull skills out of resume text:
+AB#17 - Choose extraction approach
+Compares 3 ways to pull skills out of resume text
   1. Keyword matching
-  2. spaCy PhraseMatcher(+ synonyms)
-  3. LLM API
+  2. spaCy PhraseMatcher (+ synonyms)
+  3. LLM API (Gemini)
 
-Every method returns a list of strings,["Python", "SQL"],
-to match the agreed format
 """
 
 import json
 import os
 import re
 import time
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 RESUME_FILE = "sample_resume.txt"
 SKILLS_FILE = "skills.txt"
@@ -28,7 +32,10 @@ def load_text(path):
     with open(path, encoding="utf-8") as f:
         return f.read()
 
+
+
 # 1. Keyword matching
+
 def extract_keyword(resume_text, skills):
     """Exact word match against the master skills list (case-insensitive)."""
     found = []
@@ -38,6 +45,8 @@ def extract_keyword(resume_text, skills):
         if re.search(pattern, text):
             found.append(skill)
     return found
+
+
 
 # 2. spaCy PhraseMatcher with synonyms
 
@@ -79,17 +88,22 @@ def extract_spacy(resume_text, skills):
     found = set()
     for match_id, start, end in matcher(doc):
         found.add(nlp.vocab.strings[match_id])
-    
     return [s for s in skills if s in found]
 
-# 3. LLM API
+
+
+# 3. LLM API (Gemini)
+
+def get_gemini_key():
+    return os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+
 
 def extract_llm(resume_text, skills):
-    """Asks an LLM to pick skills from our master list. Needs ANTHROPIC_API_KEY."""
-    from anthropic import Anthropic
+    """Asks Gemini to pick skills from our master list. Needs GEMINI_API_KEY."""
+    from google import genai
 
-    client = Anthropic()
-    model = os.environ.get("LLM_MODEL", "claude-haiku-4-5")
+    client = genai.Client(api_key=get_gemini_key())
+    model = os.environ.get("LLM_MODEL", "gemini-3.8-flash")
     prompt = (
         "Here is a master list of skills:\n"
         + "\n".join(skills)
@@ -98,15 +112,13 @@ def extract_llm(resume_text, skills):
         "them differently. Use the exact names from the master list. "
         "No other text.\n\nRESUME:\n" + resume_text
     )
-    msg = client.messages.create(
-        model=model,
-        max_tokens=800,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = msg.content[0].text.strip()
-    raw = raw[raw.find("["): raw.rfind("]") + 1]
+    response = client.models.generate_content(model=model, contents=prompt)
+    raw = response.text.strip()
+    raw = raw[raw.find("["): raw.rfind("]") + 1]  # strip any extra text
     result = json.loads(raw)
     return [s for s in skills if s in result]
+
+
 
 # Compare
 
@@ -124,10 +136,10 @@ def main():
     answer_key = load_lines(ANSWER_KEY_FILE)
 
     methods = [("Keyword", extract_keyword), ("spaCy", extract_spacy)]
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        methods.append(("LLM (Claude)", extract_llm))
+    if get_gemini_key():
+        methods.append(("LLM (Gemini)", extract_llm))
     else:
-        print("key not set, skipping the LLM test.\n")
+        print("NOTE: GEMINI_API_KEY not found, skipping the LLM test.\n")
 
     rows = []
     for name, func in methods:
@@ -147,7 +159,7 @@ def main():
         print(f"Wrong/extra: {extra}")
         print(f"Time: {seconds:.2f}s\n")
 
-    #markdown
+    # markdown
     print("| Method | Correct (of %d) | Missed | Wrong/extra | Time |" % len(answer_key))
     print("|---|---|---|---|---|")
     for name, correct, missed, extra, seconds in rows:
