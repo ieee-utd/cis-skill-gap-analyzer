@@ -1,0 +1,22 @@
+Python
+TypeScript
+R
+SQL
+React
+Node.js
+REST APIs
+GitHub
+Docker
+Kubernetes
+Azure
+Linux
+Machine Learning
+Natural Language Processing
+Data Analysis
+Data Visualization
+Pandas
+PyTorch
+Tableau
+Excel
+MongoDB
+Cybersecurity

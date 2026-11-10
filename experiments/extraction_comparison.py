@@ -7,6 +7,7 @@ Compares 3 ways to pull skills out of resume text
 
 """
 
+import argparse
 import json
 import os
 import re
@@ -112,7 +113,18 @@ def extract_llm(resume_text, skills):
         "them differently. Use the exact names from the master list. "
         "No other text.\n\nRESUME:\n" + resume_text
     )
-    response = client.models.generate_content(model=model, contents=prompt)
+    # Gemini sometimes returns 503 (server busy), so retry a few times
+    for attempt in range(5):
+        try:
+            response = client.models.generate_content(model=model, contents=prompt)
+            break
+        except Exception as e:
+            busy = "503" in str(e) or "UNAVAILABLE" in str(e) or "overloaded" in str(e).lower()
+            if not busy or attempt == 4:
+                raise
+            wait = 5 * 2 ** attempt
+            print(f"Gemini busy, retrying in {wait}s...")
+            time.sleep(wait)
     raw = response.text.strip()
     raw = raw[raw.find("["): raw.rfind("]") + 1]  # strip any extra text
     result = json.loads(raw)
@@ -131,12 +143,21 @@ def score(found, answer_key):
 
 
 def main():
-    resume = load_text(RESUME_FILE)
+    parser = argparse.ArgumentParser(description="Compare skill extraction methods")
+    parser.add_argument("--input", default=RESUME_FILE, help="resume or job description .txt")
+    parser.add_argument("--key", default=ANSWER_KEY_FILE, help="answer key .txt (one skill per line)")
+    parser.add_argument("--no-llm", action="store_true", help="skip the Gemini test")
+    args = parser.parse_args()
+
+    resume = load_text(args.input)
     skills = load_lines(SKILLS_FILE)
-    answer_key = load_lines(ANSWER_KEY_FILE)
+    answer_key = load_lines(args.key)
+    print(f"Input: {args.input}  Answer key: {args.key}\n")
 
     methods = [("Keyword", extract_keyword), ("spaCy", extract_spacy)]
-    if get_gemini_key():
+    if args.no_llm:
+        pass
+    elif get_gemini_key():
         methods.append(("LLM (Gemini)", extract_llm))
     else:
         print("NOTE: GEMINI_API_KEY not found, skipping the LLM test.\n")
