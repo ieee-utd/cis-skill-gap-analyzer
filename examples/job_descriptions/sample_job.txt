@@ -1,0 +1,7 @@
+Position: Machine Learning Engineer
+
+Requirements:
+- Strong experience with Python, Git, and SQL.
+- Hands-on expertise with PyTorch for building and evaluating deep learning models.
+- Familiarity with Docker for containerizing services and ensuring consistent deployments.
+- Bachelor's degree in Computer Science, Data Science, or related field.

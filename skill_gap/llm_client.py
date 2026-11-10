@@ -4,7 +4,7 @@ from google import genai
 
 from skill_gap.config import get_api_key
 
-MODEL = "gemini-flash-latest"
+MODEL = "gemini-2.5-flash"
 
 
 def ask_llm(prompt):

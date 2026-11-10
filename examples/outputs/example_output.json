@@ -1,0 +1,45 @@
+{
+  "known_skills": [
+    "Python",
+    "Git",
+    "SQL"
+  ],
+  "missing_skills": [
+    {
+      "name": "PyTorch",
+      "category": "Machine Learning",
+      "priority": "High",
+      "why_it_matters": "Core deep learning framework required for building and evaluating ML models."
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "priority": "Medium",
+      "why_it_matters": "Essential for containerizing services and ensuring consistent deployments."
+    }
+  ],
+  "roadmap_steps": [
+    {
+      "step": 1,
+      "action": "Complete PyTorch fundamentals tutorial covering tensors and model training loops.",
+      "target_skill": "PyTorch"
+    },
+    {
+      "step": 2,
+      "action": "Build and containerize a simple microservice using Docker.",
+      "target_skill": "Docker"
+    }
+  ],
+  "resources": [
+    {
+      "skill": "PyTorch",
+      "resource_name": "PyTorch Official Tutorials",
+      "url": "https://pytorch.org/tutorials/"
+    },
+    {
+      "skill": "Docker",
+      "resource_name": "Docker Getting Started Guide",
+      "url": "https://docs.docker.com/get-started/"
+    }
+  ]
+}
