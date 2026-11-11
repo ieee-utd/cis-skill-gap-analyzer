@@ -1,2 +1,3 @@
 python-dotenv
-pytestpdfplumber
+pdfplumber
+pytest
