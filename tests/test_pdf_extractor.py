@@ -1,6 +1,24 @@
-import pytest
-from skill_gap.pdf_extractor import extract_text_from_pdf
+from skill_gap import pdf_extractor
 
-def test_pdf_extraction_import():
-    """Simple test to verify module import and function structure."""
-    assert callable(extract_text_from_pdf)
+
+class FakePage:
+    def __init__(self, text):
+        self.text = text
+
+    def extract_text(self):
+        return self.text
+
+
+class FakePDF:
+    pages = [FakePage("Python"), FakePage(None), FakePage("SQL")]
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        pass
+
+
+def test_extract_joins_pages(monkeypatch):
+    monkeypatch.setattr(pdf_extractor.pdfplumber, "open", lambda path: FakePDF())
+    assert pdf_extractor.extract_text_from_pdf("fake.pdf") == "Python\nSQL"
