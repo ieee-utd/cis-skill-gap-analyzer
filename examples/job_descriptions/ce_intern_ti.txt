@@ -1,0 +1,18 @@
+Role: Embedded Systems & Computer Engineering Intern, Summer 2027
+Company: Texas Instruments
+Location: Dallas, TX
+
+About the Role:
+As a Computer Engineering / Embedded Systems Intern at Texas Instruments, you will participate in the design, validation, and firmware development for microcontrollers and embedded processors. You will work alongside experienced hardware and software engineers on real-world silicon solutions.
+
+Minimum Qualifications:
+- Currently pursuing a Bachelor’s degree in Computer Engineering, Electrical Engineering, or Computer Science.
+- Solid foundation in C and C++ programming for microcontrollers or embedded systems.
+- Understanding of computer architecture, digital logic design, microcontrollers, and memory hierarchies.
+- Familiarity with hardware interfaces such as UART, SPI, I2C, or GPIO.
+
+Preferred Qualifications:
+- Experience with RTOS (Real-Time Operating Systems) or bare-metal firmware development.
+- Hands-on experience with logic analyzers, oscilloscopes, or embedded debugging tools (JTAG/SWD).
+- Knowledge of assembly language, ARM Cortex-M architecture, or Verilog/SystemVerilog.
+- Previous academic project work featuring Raspberry Pi, Arduino, STM32, or custom PCB integration.

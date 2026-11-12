@@ -1,0 +1,18 @@
+Role: Software Engineering Intern, Summer 2027
+Company: Google
+Location: Mountain View, CA / Austin, TX / Remote
+
+About the Role:
+As a Software Engineering Intern, you will work on core products and infrastructure that power Google services used by millions of users worldwide. You will work closely with senior engineers to design, build, test, and deploy scalable software solutions.
+
+Minimum Qualifications:
+- Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Computer Engineering, or a related technical field.
+- Experience in software development using Python, C++, Java, or Go.
+- Knowledge of fundamental data structures, algorithms, and object-oriented design principles.
+- Experience with Git and version control workflows.
+
+Preferred Qualifications:
+- Experience building RESTful APIs, web services, or distributed cloud systems.
+- Familiarity with Linux command line tools and shell scripting.
+- Active participation in open-source projects, competitive programming, or technical student organizations.
+- Strong problem-solving, communication, and collaboration skills.

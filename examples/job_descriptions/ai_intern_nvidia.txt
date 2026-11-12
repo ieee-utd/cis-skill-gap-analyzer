@@ -1,0 +1,18 @@
+Role: Artificial Intelligence & Machine Learning Intern, Summer 2027
+Company: NVIDIA
+Location: Santa Clara, CA / Remote
+
+About the Role:
+NVIDIA is seeking talented AI and Machine Learning Interns to help pioneer next-generation deep learning workflows, model evaluation tools, and synthetic data pipelines. You will collaborate with research and engineering teams to accelerate AI solutions.
+
+Minimum Qualifications:
+- Currently enrolled in a BS, MS, or PhD program in Computer Science, Data Science, Electrical Engineering, or related quantitative discipline.
+- Strong programming skills in Python and working knowledge of C/C++.
+- Hands-on experience with deep learning frameworks such as PyTorch or TensorFlow.
+- Solid understanding of linear algebra, probability, statistics, and machine learning fundamentals.
+- Experience analyzing datasets using Pandas, NumPy, and Scikit-Learn.
+
+Preferred Qualifications:
+- Familiarity with Large Language Models (LLMs), prompt engineering, or RAG architectures.
+- Experience training neural networks on GPU clusters or using CUDA/TensorRT.
+- Previous research publications or personal machine learning projects demonstrated on GitHub.
