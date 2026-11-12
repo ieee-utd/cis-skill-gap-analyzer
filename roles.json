@@ -1,0 +1,277 @@
+[
+  {
+    "role": "Software Engineer",
+    "skills": [
+      {
+        "name": "python",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "git",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "java",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "docker",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Frontend Developer",
+    "skills": [
+      {
+        "name": "html",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "css",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "javascript",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "react",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "typescript",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Backend Developer",
+    "skills": [
+      {
+        "name": "python",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "restful api",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "java",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "docker",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "skills": [
+      {
+        "name": "html",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "css",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "javascript",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "node.js",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "skills": [
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "microsoft excel",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "python",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "microsoft power bi",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "tableau",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "skills": [
+      {
+        "name": "python",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "r",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "tensorflow",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "pytorch",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Cloud Engineer",
+    "skills": [
+      {
+        "name": "linux",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "amazon web services",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "microsoft azure",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "docker",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "kubernetes",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Cybersecurity Analyst",
+    "skills": [
+      {
+        "name": "linux",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "firewall software",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "python",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "splunk",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "powershell",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Software Quality Assurance Engineer",
+    "skills": [
+      {
+        "name": "selenium",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "python",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "jira",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "postman",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Database Administrator",
+    "skills": [
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "linux",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "python",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "postgresql",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "microsoft sql server",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Systems Analyst",
+    "skills": [
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "microsoft excel",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "python",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "jira",
+        "requirement_type": "Preferred"
+      },
+      {
+        "name": "microsoft power bi",
+        "requirement_type": "Preferred"
+      }
+    ]
+  }
+]
