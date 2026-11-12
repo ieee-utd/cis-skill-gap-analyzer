@@ -1,0 +1,26 @@
+Sam Rivera
+Information Technology Student, University of Texas at Dallas
+
+EXPERIENCE
+Cloud Support Intern, Northwind Health (Summer 2026)
+- Containerized internal tools and deployed them to a K8s cluster on Microsoft Azure
+- Wrote shell scripts to automate patching on Ubuntu servers
+- Monitored firewall logs and helped investigate phishing incidents with the security team
+
+Data Analyst Intern, City of Richardson
+- Performed statistical analysis of 311 service requests in RStudio
+- Cleaned and merged datasets in Python using Pandas, and made charts with Matplotlib
+- Built interactive dashboards in Power BI and Tableau for city managers
+
+PROJECTS
+Campus Events App - full-stack app with a ReactJS front end, a NodeJS/Express back end exposing a RESTful API, and a Mongo database. Written in TypeScript.
+Resume Screener - fine-tuned a BERT model in PyTorch to sort resumes by job category (text classification)
+
+ACTIVITIES
+- Member of the UTD Cybersecurity Club, placed 3rd in a capture-the-flag competition
+- Attended career fairs and networking events
+
+SKILLS
+Languages: Python, TypeScript, R, SQL
+DevOps: Docker, GitHub Actions, CI/CD
+Tools: Microsoft Excel (pivot tables, VLOOKUP), Power BI, Jira

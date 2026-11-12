@@ -1,0 +1,30 @@
+Python
+Java
+C++
+JavaScript
+SQL
+HTML
+CSS
+React
+Flask
+REST APIs
+Git
+GitHub
+Docker
+AWS
+Azure
+Linux
+Machine Learning
+Deep Learning
+Natural Language Processing
+Computer Vision
+Data Analysis
+Pandas
+NumPy
+scikit-learn
+TensorFlow
+PyTorch
+Tableau
+Excel
+PostgreSQL
+Agile
