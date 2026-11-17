@@ -1,10 +1,10 @@
 # Experiments
 
-Scripts for comparing skill extraction approaches (AB#17). Results are in [extraction_results.md](extraction_results.md).
+Scripts for comparing skill extraction approaches. The results are in [extraction_results.md]
 
 ## Setup
 
-Run these commands from inside this folder, because the script finds `skills.txt` and the sample files by their relative paths.
+Run these commands from inside this folder, because the script finds the skills file and the sample files by their relative paths.
 
 ```bash
 cd experiments
@@ -29,7 +29,7 @@ python extraction_comparison.py --input ../examples/job_descriptions/sample_job.
 # Skip the LLM test
 python extraction_comparison.py --no-llm
 
-# Use a different Gemini model (for example, when the default one is returning 503 busy errors)
+# Use a different Gemini model
 LLM_MODEL=gemini-3.5-flash python extraction_comparison.py
 ```
 
@@ -37,7 +37,7 @@ LLM_MODEL=gemini-3.5-flash python extraction_comparison.py
 
 | File | What it is |
 |---|---|
-| `skills.txt` | Master list of 40 skills |
+| `skills.txt` |  List of 40 skills |
 | `sample_resume.txt` / `answer_key.txt` | First test resume. The spaCy synonym list was built from this one. |
 | `sample_resume_2.txt` / `answer_key_2.txt` | Second resume, held out. It was not used to build the synonym list. |
 | `answer_key_sample_job.txt` | Answer key for `../examples/job_descriptions/sample_job.txt` |

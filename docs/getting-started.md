@@ -45,6 +45,9 @@ You will see `(.venv)` at the start of your terminal line when it is on.
 ## 4. Install the libraries
 
     pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
+
+The second command downloads the English model that the spaCy backup extractor uses when the LLM call fails.
 
 ## 5. Set up your API key
 

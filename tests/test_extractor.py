@@ -103,3 +103,16 @@ def test_spacy_fallback_finds_skills():
     assert "Python" in names
     assert "JavaScript" in names
     assert "Docker" in names
+
+
+def test_unknown_requirement_type_becomes_required():
+    skills = [
+        {"name": "Python", "requirement_type": "Nice to have"},
+        {"name": "Docker"},
+        {"name": "Git", "requirement_type": "Preferred"},
+    ]
+    assert extractor.clean_skills(skills) == [
+        {"name": "python", "requirement_type": "Required"},
+        {"name": "docker", "requirement_type": "Required"},
+        {"name": "git", "requirement_type": "Preferred"},
+    ]

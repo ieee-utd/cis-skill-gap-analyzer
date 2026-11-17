@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - run: python -m spacy download en_core_web_sm
       - run: python -m pytest
         env:
           PYTHONPATH: .

@@ -2,3 +2,4 @@ python-dotenv
 pdfplumber
 pytest
 google-genai
+spacy

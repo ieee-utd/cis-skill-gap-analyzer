@@ -10,14 +10,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PROMPT_FILE = REPO_ROOT / "prompts" / "extract_skills.txt"
 FALLBACK_SKILLS_FILE = REPO_ROOT / "experiments" / "skills.txt"
 
-# Other ways people write the skills in skills.txt (from the AB#17 experiment).
+#(from the AB#17 experiment).
 SYNONYMS = {
-    "ML": "Machine Learning",
     "machine-learning": "Machine Learning",
     "deep-learning": "Deep Learning",
     "NLP": "Natural Language Processing",
     "computer-vision": "Computer Vision",
-    "CV": "Computer Vision",
     "JS": "JavaScript",
     "Postgres": "PostgreSQL",
     "scikit learn": "scikit-learn",
@@ -55,7 +53,7 @@ def extract_skills(text: str) -> list:
             raise llm_error
         return clean_skills(skills)
 
-    # Keep only the part from the first [ to the last ], in case the LLM adds extra text.
+    # Keep only the part from the first to last ], in case the LLM adds extra text.
     start = reply.find("[")
     end = reply.rfind("]")
     json_text = reply[start : end + 1] if start != -1 and end > start else reply
@@ -72,7 +70,10 @@ def extract_skills(text: str) -> list:
 
 
 def clean_skills(skills: list) -> list:
-    """Lowercase and strip every name, and drop duplicates and empty names."""
+    """Lowercase and strip every name, and drop duplicates and empty names.
+
+    Any requirement_type other than "Required" or "Preferred" becomes "Required".
+    """
     cleaned = []
     seen = set()
     for skill in skills:
@@ -82,12 +83,10 @@ def clean_skills(skills: list) -> list:
         if not name or name in seen:
             continue
         seen.add(name)
-        cleaned.append(
-            {
-                "name": name,
-                "requirement_type": skill.get("requirement_type", "Required"),
-            }
-        )
+        requirement_type = skill.get("requirement_type")
+        if requirement_type not in ("Required", "Preferred"):
+            requirement_type = "Required"
+        cleaned.append({"name": name, "requirement_type": requirement_type})
     return cleaned
 
 
