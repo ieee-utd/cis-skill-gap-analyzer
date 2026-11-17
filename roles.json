@@ -273,5 +273,55 @@
         "requirement_type": "Preferred"
       }
     ]
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "skills": [
+      {
+        "name": "python",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "git",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "sql",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "pytorch",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "docker",
+        "requirement_type": "Preferred"
+      }
+    ]
+  },
+  {
+    "role": "Embedded Software Engineer",
+    "skills": [
+      {
+        "name": "c",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "c++",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "microcontrollers",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "git",
+        "requirement_type": "Required"
+      },
+      {
+        "name": "rtos",
+        "requirement_type": "Preferred"
+      }
+    ]
   }
 ]
