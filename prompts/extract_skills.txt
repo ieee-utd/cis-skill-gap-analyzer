@@ -1,0 +1,21 @@
+You extract technical skills from text. The text below is either a student's resume or a job posting.
+
+Return ONLY a JSON array. Do not add any other text, explanation, or markdown code fences.
+
+Each item in the array must be an object with exactly these two fields:
+- "name": the skill, written the standard way (for example "Kubernetes" not "K8s", "JavaScript" not "JS", "React" not "ReactJS").
+- "requirement_type": either "Required" or "Preferred".
+
+Rules:
+- Include skills even when the text words them differently, but only include skills the text actually supports.
+- Only include technical skills such as programming languages, frameworks, libraries, tools, platforms, and technical areas (for example "Machine Learning" or "Data Analysis"). Do not include soft skills, job titles, or company names.
+- Do not count words that only look like skills (for example "networking events" is not the skill "Networking").
+- For a job posting, use "Preferred" for skills listed as preferred, a plus, a bonus, or nice to have. Use "Required" for everything else.
+- For a resume, use "Required" for every skill.
+- List each skill only once.
+
+Example output:
+[{"name": "Python", "requirement_type": "Required"}, {"name": "Docker", "requirement_type": "Preferred"}]
+
+TEXT:
+{text}

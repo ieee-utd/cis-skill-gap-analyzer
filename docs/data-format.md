@@ -54,3 +54,20 @@ import json
 with open("roles.json") as f:
     roles = json.load(f)
 ```
+
+## 5. Extraction Format
+`extract_skills(text)` in `skill_gap/extractor.py` takes resume or job posting text and returns a list of skill objects. It uses the same field names as the Target Roles format, so the gap analysis can compare the two lists directly.
+
+- `name` (string): Lowercase, trimmed skill name, no duplicates in the list.
+- `requirement_type` (string): Either `"Required"` or `"Preferred"`. Skills from a resume are always `"Required"`.
+
+The prompt lives in `prompts/extract_skills.txt`. If the LLM does not return valid JSON, `extract_skills` raises `ValueError("The LLM did not return valid JSON.")`.
+
+### Sample
+```json
+[
+  {"name": "python", "requirement_type": "Required"},
+  {"name": "sql", "requirement_type": "Required"},
+  {"name": "docker", "requirement_type": "Preferred"}
+]
+```
